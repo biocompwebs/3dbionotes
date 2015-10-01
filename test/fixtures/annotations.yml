@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  proteinId: MyString
+  source: MyString
+  digest: MyString
+  data: MyText
+
+two:
+  proteinId: MyString
+  source: MyString
+  digest: MyString
+  data: MyText

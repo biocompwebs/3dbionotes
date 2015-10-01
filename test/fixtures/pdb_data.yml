@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  pdbId: MyString
+  digest: MyString
+  data: MyText
+
+two:
+  pdbId: MyString
+  digest: MyString
+  data: MyText
