@@ -89,6 +89,13 @@ Rails.application.routes.draw do
           end
         end
       end
+      scope '/dsysmap' do
+        scope '/Uniprot' do
+          scope '/:name' do
+            get '/' => 'annotations#getDsysmapFromUniprot'
+         end
+       end
+     end
    end
     scope '/lengths' do
       scope '/Uniprot' do
